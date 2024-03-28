@@ -1,5 +1,8 @@
-> [!NOTES]
-> Highlights information that users should take into account, even when skimming.
+> [!NOTE]
+> Beberapa Operasi HTTP seperti GET, POST, PATCH, PUT, DELETE bisa anda gunakan url berikut:
+> - GET : https://todoapi-production.up.railway.app/todo
+> * POST : https://todoapi-production.up.railway.app/todo
+> + PATCH : https://todoapi-production.up.railway.app/todo
 
 > [!TIP]
 > Optional information to help a user be more successful.
