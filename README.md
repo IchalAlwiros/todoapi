@@ -15,3 +15,10 @@
 
 > [!CAUTION]
 > Negative potential consequences of an action.
+
+
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
