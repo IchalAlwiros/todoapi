@@ -3,8 +3,8 @@
 > + **`GET`** : https://todoapi-production.up.railway.app/todo
 > + **`POST`** : https://todoapi-production.up.railway.app/todo
 > + **`PATCH`** : https://todoapi-production.up.railway.app/todo
-> + > + **`PUT`** : https://todoapi-production.up.railway.app/todo
->   > + > + **`DELETE`** : https://todoapi-production.up.railway.app/todo
+> + **`PUT`** : https://todoapi-production.up.railway.app/todo
+> + **`DELETE`** : https://todoapi-production.up.railway.app/todo
 
 
 
