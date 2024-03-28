@@ -7,6 +7,14 @@
 > + $\color{red}{\textsf{GET}}$
 
 
+- `#F00`
+- `#F00A`
+- `#FF0000`
+- `#FF0000AA`
+- `RGB(0,255,0)`
+- `RGB(0%,100%,0%)`
+- `RGBA(0,255,0,0.3)`
+
 
 > [!TIP]
 > Optional information to help a user be more successful.
