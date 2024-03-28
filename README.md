@@ -4,6 +4,9 @@
 > + **`POST`** : https://todoapi-production.up.railway.app/todo
 > + **`PATCH`** :https://todoapi-production.up.railway.app/todo
 > + ${{\color{Goldenrod}\Huge{\textsf{  Hi\ there\ \}}}}\$
+> + $\textcolor{red}{\textsf{Color didint work .}}$ 
+
+
 
 > [!TIP]
 > Optional information to help a user be more successful.
