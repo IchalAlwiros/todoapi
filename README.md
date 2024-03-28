@@ -4,7 +4,7 @@
 > + **`POST`** : https://todoapi-production.up.railway.app/todo
 > + **`PATCH`** :https://todoapi-production.up.railway.app/todo
 > + ${{\color{Goldenrod}\Huge{\textsf{  Hi\ there\ \}}}}\$
-> + $\color{red}{\textsf{lorem ipsum}}$
+> + $\color{red}{\textsf{**`GET`**}}$
 
 
 
