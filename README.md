@@ -1,6 +1,6 @@
 > [!NOTE]
 > Beberapa Operasi HTTP seperti GET, POST, PATCH, PUT, DELETE bisa anda gunakan url berikut:
-> - GET : https://todoapi-production.up.railway.app/todo
+> - $${\color{green}GET}$$ : https://todoapi-production.up.railway.app/todo
 > * POST : https://todoapi-production.up.railway.app/todo
 > + PATCH : https://todoapi-production.up.railway.app/todo
 
