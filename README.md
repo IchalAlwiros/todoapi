@@ -2,18 +2,10 @@
 > Beberapa Operasi HTTP seperti GET, POST, PATCH, PUT, DELETE bisa anda gunakan url berikut:
 > + **`GET`** : https://todoapi-production.up.railway.app/todo
 > + **`POST`** : https://todoapi-production.up.railway.app/todo
-> + **`PATCH`** :https://todoapi-production.up.railway.app/todo
-> + ${{\color{Goldenrod}\Huge{\textsf{  Hi\ there\ \}}}}\$
-> + $\color{red}{\textsf{GET}}$
+> + **`PATCH`** : https://todoapi-production.up.railway.app/todo
+> + > + **`PUT`** : https://todoapi-production.up.railway.app/todo
+>   > + > + **`DELETE`** : https://todoapi-production.up.railway.app/todo
 
-
-- `#F00`
-- `#F00A`
-- `#FF0000`
-- `#FF0000AA`
-- `RGB(0,255,0)`
-- `RGB(0%,100%,0%)`
-- `RGBA(0,255,0,0.3)`
 
 
 > [!TIP]
