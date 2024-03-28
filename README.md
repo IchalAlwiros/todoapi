@@ -3,6 +3,7 @@
 > + <code style="color : green">GET</code> : https://todoapi-production.up.railway.app/todo
 > * <code style="color : gold">POST</code> : https://todoapi-production.up.railway.app/todo
 > + <code style="color : fuchsia">PATCH</code> : https://todoapi-production.up.railway.app/todo
+> + ${{\color{Goldenrod}\Huge{\textsf{  Hi\ there\ \}}}}\$
 
 > [!TIP]
 > Optional information to help a user be more successful.
@@ -17,8 +18,4 @@
 > Negative potential consequences of an action.
 
 
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+
