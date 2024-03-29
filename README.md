@@ -4,17 +4,17 @@ This API service is supported by using a **_`Supabase`_** database and deploying
 
 > [!NOTE]
 > + **`GET`** : https://todoapi-production.up.railway.app/todo
+> + **`GET`** : https://todoapi-production.up.railway.app/todo/:id
 > + **`POST`** : https://todoapi-production.up.railway.app/todo
-> + **`PATCH`** : https://todoapi-production.up.railway.app/todo
-> + **`PUT`** : https://todoapi-production.up.railway.app/todo
-> + **`DELETE`** : https://todoapi-production.up.railway.app/todo
+> + **`PATCH`** : https://todoapi-production.up.railway.app/todo/:id
+> + **`PUT`** : https://todoapi-production.up.railway.app/todo/:id
+> + **`DELETE`** : https://todoapi-production.up.railway.app/todo/:id
 
 
 **`GET`** Get All item todo - HTTP Response Code: **200** <br>
 `https://todoapi-production.up.railway.app/todo`
 ```javascript
     Content-Type: application/json
-
     {
         "data": [
           {
@@ -28,6 +28,82 @@ This API service is supported by using a **_`Supabase`_** database and deploying
         "success": true
    }
 ```
+
+**`POST`** Create new item todo - HTTP Response Code: **200** <br>
+`https://todoapi-production.up.railway.app/todo`<br>
+Request Body:
+```javascript
+    Content-Type: application/json
+    {
+      "title" : "Judul 2",
+      "note" : "Hari ini saya ingin membuat API"
+    }
+```
+Response Body - HTTP Response Code: **200**
+```javascript
+    Content-Type: application/json
+    {
+      "data": {
+        "Id": 4,
+        "Title": "Judul 2",
+        "Note": "Hari ini saya ingin membuat API",
+        "CreatedAt": "2024-03-29T05:57:45.259327828Z",
+        "UpdatedAt": "2024-03-29T05:57:45.259327828Z"
+      },
+      "success": true
+    }
+```
+
+
+**`GET`** Get One item todo - HTTP Response Code: **200** <br>
+`https://todoapi-production.up.railway.app/todo/:id`
+> [!NOTE]
+> + take only 1 data from a certain ID
+> +`https://todoapi-production.up.railway.app/todo/2`
+
+```javascript
+    Content-Type: application/json
+    {
+      "data": {
+        "Id": 2,
+        "Title": "YAiTU",
+        "Note": "Hello hari ini saya kepeseng",
+        "CreatedAt": "2024-03-27T03:22:48.82648Z",
+        "UpdatedAt": "2024-03-27T03:22:48.82648Z"
+      },
+      "success": true
+    }
+```
+
+
+**`PATCH`** Save edit item todo - HTTP Response Code: **200** <br>
+`https://todoapi-production.up.railway.app/todo/:id`<br>
+> [!NOTE]
+> + can be used to edit certain fields, for example here I only want to change the title
+> +`https://todoapi-production.up.railway.app/todo/2`
+Request Body:
+```javascript
+    Content-Type: application/json
+    {
+      "title" : "Judul Baru",
+    }
+```
+Response Body - HTTP Response Code: **200**
+```javascript
+    Content-Type: application/json
+    {
+      "data": {
+        "Id": 4,
+        "Title": "Judul Baru",
+        "Note": "Hari ini saya ingin membuat API",
+        "CreatedAt": "2024-03-29T05:57:45.259327828Z",
+        "UpdatedAt": "2024-03-29T05:57:45.259327828Z"
+      },
+      "success": true
+    }
+```
+
+
 
 > [!TIP]
 > You can use query parameters for pagination
