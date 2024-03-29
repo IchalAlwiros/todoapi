@@ -9,7 +9,18 @@ This API service is supported by using a **_`Supabase`_** database and deploying
 > + **`PUT`** : https://todoapi-production.up.railway.app/todo
 > + **`DELETE`** : https://todoapi-production.up.railway.app/todo
 
-
+{
+  "data": [
+    {
+      "Id": 1,
+      "Title": "YAiTU",
+      "Note": "Hello hari ini saya kepeseng",
+      "CreatedAt": "2024-03-27T03:19:01.966964Z",
+      "UpdatedAt": "2024-03-27T03:19:01.966964Z"
+    }
+  ],
+  "success": true
+}
 
 > [!TIP]
 > Optional information to help a user be more successful.
