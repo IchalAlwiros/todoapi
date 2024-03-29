@@ -10,7 +10,7 @@ This API service is supported by using a **_`Supabase`_** database and deploying
 > + **`DELETE`** : https://todoapi-production.up.railway.app/todo
 
 
-1- **`GET`** - Get All item todo - HTTP Response Code: **200** <br>
+**`GET`** Get All item todo - HTTP Response Code: **200** <br>
 `https://todoapi-production.up.railway.app/todo`
 ```javascript
     Content-Type: application/json
