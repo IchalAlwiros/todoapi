@@ -9,7 +9,12 @@ This API service is supported by using a **_`Supabase`_** database and deploying
 > + **`PUT`** : https://todoapi-production.up.railway.app/todo
 > + **`DELETE`** : https://todoapi-production.up.railway.app/todo
 
-{
+
+1- GET - Get single item - HTTP Response Code: **200**
+```json
+    Content-Type: application/json
+
+    {
   "data": [
     {
       "Id": 1,
@@ -21,6 +26,7 @@ This API service is supported by using a **_`Supabase`_** database and deploying
   ],
   "success": true
 }
+```
 
 > [!TIP]
 > Optional information to help a user be more successful.
