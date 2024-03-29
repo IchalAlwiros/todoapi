@@ -30,7 +30,9 @@ This API service is supported by using a **_`Supabase`_** database and deploying
 ```
 
 > [!TIP]
-> Optional information to help a user be more successful.
+> You can use query parameters for pagination
+> `https://todoapi-production.up.railway.app/todo?page=2&page_limit=2`
+
 
 > [!IMPORTANT]
 > Crucial information necessary for users to succeed.
