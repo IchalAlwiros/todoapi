@@ -14,7 +14,7 @@ This API service is supported by using a **_`Supabase`_** database and deploying
 **`GET`** Get All item todo - HTTP Response Code: **200** <br>
 `https://todoapi-production.up.railway.app/todo`
 > [!NOTE]
-> + you can use pagination with query params
+> + you can use pagination with query params<br>
 > +`https://todoapi-production.up.railway.app/todo?page=1&page_limit=2`
 
 ```javascript
@@ -62,7 +62,7 @@ Response Body - HTTP Response Code: **200**
 **`GET`** Get One item todo - HTTP Response Code: **200** <br>
 `https://todoapi-production.up.railway.app/todo/:id`
 > [!NOTE]
-> + take only 1 data from a certain ID
+> + take only 1 data from a certain ID<br>
 > +`https://todoapi-production.up.railway.app/todo/2`
 
 ```javascript
@@ -83,7 +83,7 @@ Response Body - HTTP Response Code: **200**
 **`PATCH`** Save edit item todo - HTTP Response Code: **200** <br>
 `https://todoapi-production.up.railway.app/todo/:id`<br>
 > [!NOTE]
-> + can be used to edit certain fields, for example here I only want to change the title
+> + can be used to edit certain fields, for example here I only want to change the title<br>
 > +`https://todoapi-production.up.railway.app/todo/4`
 Request Body:
 ```javascript
@@ -110,7 +110,7 @@ Response Body - HTTP Response Code: **200**
 **`PATCH`** Save edit item todo - HTTP Response Code: **200** <br>
 `https://todoapi-production.up.railway.app/todo/:id`<br>
 > [!NOTE]
-> + put involves all fields in the request body to change one piece of data
+> + put involves all fields in the request body to change one piece of data<br>
 > +`https://todoapi-production.up.railway.app/todo/4`
 Request Body:
 ```javascript
@@ -139,7 +139,7 @@ Response Body - HTTP Response Code: **200**
 **`DELETE`** Get One item todo - HTTP Response Code: **200** <br>
 `https://todoapi-production.up.railway.app/todo/:id`
 > [!NOTE]
-> + take only 1 data from a certain ID
+> + take only 1 data from a certain ID<br>
 > +`https://todoapi-production.up.railway.app/todo/2`
 
 ```javascript
