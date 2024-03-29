@@ -11,7 +11,7 @@ This API service is supported by using a **_`Supabase`_** database and deploying
 
 
 1- GET - Get single item - HTTP Response Code: **200**
-```json
+```javascript
     Content-Type: application/json
 
     {
