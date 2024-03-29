@@ -2,7 +2,7 @@
 In this project I tried to use the Golang programming language to create a client API service to perform CRUD operations
 This API service is supported by using a **_`Supabase`_** database and deploying it using **_`Railway`_**
 link support:
-https://supabase.com/
+https://supabase.com/ &
 https://railway.app/
 
 > [!NOTE]
