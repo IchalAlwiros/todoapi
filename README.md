@@ -66,10 +66,10 @@ Response Body - HTTP Response Code: **200**
     {
       "data": {
         "Id": 2,
-        "Title": "YAiTU",
-        "Note": "Hello hari ini saya kepeseng",
+        "Title": "Judul 2",
+        "Note": "Hari ini saya ingin membuat API",
         "CreatedAt": "2024-03-27T03:22:48.82648Z",
-        "UpdatedAt": "2024-03-27T03:22:48.82648Z"
+        "UpdatedAt": "2024-03-29T06:06:56.600493703Z"
       },
       "success": true
     }
@@ -80,7 +80,7 @@ Response Body - HTTP Response Code: **200**
 `https://todoapi-production.up.railway.app/todo/:id`<br>
 > [!NOTE]
 > + can be used to edit certain fields, for example here I only want to change the title
-> +`https://todoapi-production.up.railway.app/todo/2`
+> +`https://todoapi-production.up.railway.app/todo/4`
 Request Body:
 ```javascript
     Content-Type: application/json
@@ -103,21 +103,63 @@ Response Body - HTTP Response Code: **200**
     }
 ```
 
+**`PATCH`** Save edit item todo - HTTP Response Code: **200** <br>
+`https://todoapi-production.up.railway.app/todo/:id`<br>
+> [!NOTE]
+> + put involves all fields in the request body to change one piece of data
+> +`https://todoapi-production.up.railway.app/todo/4`
+Request Body:
+```javascript
+    Content-Type: application/json
+    {
+      "title" : "Judul Baru",
+      "Note": "Hari ini saya ingin membuat API Baru",
+    }
+```
+Response Body - HTTP Response Code: **200**
+```javascript
+    Content-Type: application/json
+    {
+      "data": {
+        "Id": 4,
+        "Title": "Judul Baru",
+        "Note": "Hari ini saya ingin membuat API Baru",
+        "CreatedAt": "2024-03-29T05:57:45.259327828Z",
+        "UpdatedAt": "2024-03-29T05:57:45.259327828Z"
+      },
+      "success": true
+    }
+```
 
 
-> [!TIP]
-> You can use query parameters for pagination
-> `https://todoapi-production.up.railway.app/todo?page=2&page_limit=2`
+**`DELETE`** Get One item todo - HTTP Response Code: **200** <br>
+`https://todoapi-production.up.railway.app/todo/:id`
+> [!NOTE]
+> + take only 1 data from a certain ID
+> +`https://todoapi-production.up.railway.app/todo/2`
 
+```javascript
+    Content-Type: application/json
+    {
+      "data": {
+        "Id": 2,
+        "Title": "Judul 2",
+        "Note": "Hari ini saya ingin membuat API",
+        "CreatedAt": "2024-03-27T03:22:48.82648Z",
+        "UpdatedAt": "2024-03-29T06:06:56.600493703Z"
+      },
+      "success": true
+    }
+```
 
-> [!IMPORTANT]
-> Crucial information necessary for users to succeed.
-
-> [!WARNING]
-> Critical content demanding immediate user attention due to potential risks.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
+if error
+```javascript
+     Content-Type: application/json
+    {
+      "message": "Record not found!",
+      "success": false
+    }
+```
 
 
 
