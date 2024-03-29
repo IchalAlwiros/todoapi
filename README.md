@@ -13,6 +13,10 @@ This API service is supported by using a **_`Supabase`_** database and deploying
 
 **`GET`** Get All item todo - HTTP Response Code: **200** <br>
 `https://todoapi-production.up.railway.app/todo`
+> [!NOTE]
+> + you can use pagination with query params
+> +`https://todoapi-production.up.railway.app/todo?page=1&page_limit=2`
+
 ```javascript
     Content-Type: application/json
     {
