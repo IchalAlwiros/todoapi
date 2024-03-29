@@ -15,17 +15,17 @@ This API service is supported by using a **_`Supabase`_** database and deploying
     Content-Type: application/json
 
     {
-  "data": [
-    {
-      "Id": 1,
-      "Title": "YAiTU",
-      "Note": "Hello hari ini saya kepeseng",
-      "CreatedAt": "2024-03-27T03:19:01.966964Z",
-      "UpdatedAt": "2024-03-27T03:19:01.966964Z"
-    }
-  ],
-  "success": true
-}
+        "data": [
+         {
+          "Id": 1,
+          "Title": "Title Todo",
+          "Note": "I Learn Golang Today",
+          "CreatedAt": "2024-03-27T03:19:01.966964Z",
+          "UpdatedAt": "2024-03-27T03:19:01.966964Z"
+         }
+        ],
+        "success": true
+   }
 ```
 
 > [!TIP]
